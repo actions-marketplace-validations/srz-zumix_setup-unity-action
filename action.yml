@@ -1,4 +1,4 @@
-name: Setup Unity
+name: SetUp Unity Action
 description: Install the Unity Editor and modules using the official Unity CLI
 author: srz-zumix
 
