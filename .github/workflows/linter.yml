@@ -40,11 +40,11 @@ jobs:
 
       - name: Install Dependencies
         id: install
-        run: npm ci
+        run: npm ci --ignore-scripts
 
       - name: Lint Codebase
         id: super-linter
-        uses: super-linter/super-linter/slim@v8
+        uses: super-linter/super-linter/slim@v9
         env:
           CHECKOV_FILE_NAME: .checkov.yml
           DEFAULT_BRANCH: main
